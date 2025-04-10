@@ -1,1 +1,10 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-text-family: PressStart2P;
+  --accent-text-family: Inter;
+  --main-text-weight: 400;
+  --heading-text-weight: 700;
+  --section-width: clamp(23.438rem, 16.285rem + 30.52vw, 43.75rem);
+  --accent-color: #000;
+  --main-color: #fff;
+}
