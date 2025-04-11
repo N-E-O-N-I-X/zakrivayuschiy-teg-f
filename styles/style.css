@@ -186,6 +186,7 @@
   cursor: pointer;
   font-family: var(--main-text-family), sans-serif;
   font-size: 14px;
+  font-weight: 400;
   background-color: var(--main-color);
   border: 2px solid var(--accent-color);
   display: flexbox;
@@ -299,6 +300,16 @@
 .save-button-elements {
   margin: auto;
   padding: 15px 21px 15px 19px;
+}
+
+@media (width <= 375px) {
+  .save-button-elements {
+    display: grid;
+    gap: 8px;
+    justify-items: center;
+    align-items: start;
+    align-content: center;
+  }
 }
 
 .save-icon {
